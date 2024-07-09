@@ -4,28 +4,28 @@ This describes about a thorough library management system with all the operation
 # Report on Library Management System
 
 
-Library management system majorly uses the below files:
-check.py
-book.py
-user.py
-storage.py
+Library management system majorly uses the below files:\
+**1. check.py**
+**2. book.py**
+**3. user.py**
+**4. storage.py**
 
-The above files majorly concentrate on performing the major CRUD operations required to manage the library system. It followed below approach where, every layer is discussed thoroughly
+The above files majorly concentrate on performing the major CRUD operations required to manage the library system. It followed below approach where, every layer is discussed thoroughly \
 
-Layered Architecture: The overall structure of our system exhibits a Layered Architecture, where the application is organized into layers with specific responsibilities. This architecture promotes separation of concerns, making the system more organized and manageable. The key layers in your application include:
-Presentation Layer: This is represented by your command-line interface in main.py, where interactions with the system occur (like a Command pattern used to encapsulate a request as an object, letting us parameterize clients with different requests, queue or log requests, and support undoable operations.)
-Major Logic Layer: This includes classes like Books, Users, and Check which handle the core functionality and rules of the application ((like a Singleton Pattern to instantiate only once throughout your application's lifecycle.)
-Data Access Layer: The Storage class manages reading and writing to CSV files, abstracting the details of data persistence from the rest of the application (like a Repository Pattern, which is used to encapsulate the logic required to access data sources.)
+Layered Architecture: The overall structure of our system exhibits a Layered Architecture, where the application is organized into layers with specific responsibilities. This architecture promotes separation of concerns, making the system more organized and manageable. The key layers in your application include:\
+**1. Presentation Layer:** This is represented by your command-line interface in main.py, where interactions with the system occur (like a Command pattern used to encapsulate a request as an object, letting us parameterize clients with different requests, queue or log requests, and support undoable operations.) \\
+**2. Major Logic Layer:** This includes classes like Books, Users, and Check which handle the core functionality and rules of the application ((like a Singleton Pattern to instantiate only once throughout your application's lifecycle.) \\
+**3. Data Access Layer:** The Storage class manages reading and writing to CSV files, abstracting the details of data persistence from the rest of the application (like a Repository Pattern, which is used to encapsulate the logic required to access data sources.)\
 
-check.py:
+**check.py:**\
 
-Here we are using a class called Record. We are initializing a method with parameters book_management that is assigned to none. This works like a constructor where the values can be assigned. 
+1. Here we are using a class called Record. We are initializing a method with parameters book_management that is assigned to none. This works like a constructor where the values can be assigned. \
 
-checkout_book() and checkin_book() method takes self, user_id and isbn parameters. The former is used to check out books and the latter to check in the books.
+2. checkout_book() and checkin_book() method takes self, user_id and isbn parameters. The former is used to check out books and the latter to check in the books. \
 
-During the checkout, it checks if the user_id exists or not and if if exists then it checkouts the book. If the user_if doesn’t exist then it will throw a message that the given user_id doesn’t exist or not active.
+3. During the checkout, it checks if the user_id exists or not and if if exists then it checkouts the book. If the user_if doesn’t exist then it will throw a message that the given user_id doesn’t exist or not active. \
 
-During checkin function, it checks for valid user_id and see the maximum limit of 30 days for renewal of the book to avoid overdue/fine amount. If it crosses that 30 days, it will charge a fine of Rs 1 per each day.
+4. During checkin function, it checks for valid user_id and see the maximum limit of 30 days for renewal of the book to avoid overdue/fine amount. If it crosses that 30 days, it will charge a fine of Rs 1 per each day.\
 
 
 book.py:
