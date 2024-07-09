@@ -1,0 +1,123 @@
+[2024-02-28 23:58:55] Added a new book: Head First Java by Kathy Sierra, ISBN: 0596009208, Quantity: 5
+[2024-02-29 00:52:23] Searched for book by isbn: 9780131101630
+[2024-02-29 00:52:54] Added user name: sriram, user_id 123
+[2024-02-29 00:53:08] Tried Book ISBN: {isbn} checkout by user: {user_id}
+[2024-02-29 00:53:25] Tried Book ISBN: {isbn} checkin by user: {user_id}
+[2024-02-29 00:53:48] Tried Book ISBN: {isbn} checkin by user: {user_id}
+[2024-02-29 09:11:48] Searched for book by isbn: 9780131101630
+[2024-07-07 09:04:10] Added a new book: GSK by Ganesh, ISBN: 1234, Quantity: 2
+[2024-07-07 09:06:14] Added user name: GSK12, user_id ganesh1204
+[2024-07-07 09:30:29] Searched for book by title: GSK
+[2024-07-07 09:39:21] Added a new book: GSK by Ganesh, ISBN: 1234, Quantity: 2
+[2024-07-07 09:41:48] Tried Book ISBN: {isbn} checkout by user: {user_id}
+[2024-07-07 09:42:17] Tried Book ISBN: {isbn} checkin by user: {user_id}
+[2024-07-07 11:49:05] Added a new book: my life by sarvani, ISBN: 1235, Quantity: 4
+[2024-07-07 11:49:51] Searched for book by title: my life
+[2024-07-07 11:50:12] Searched for book by title: ghj
+[2024-07-07 11:51:59] Tried Book ISBN: {isbn} checkout by user: {user_id}
+[2024-07-07 11:52:28] Tried Book ISBN: {isbn} checkin by user: {user_id}
+[2024-07-07 11:52:53] Tried Book ISBN: {isbn} checkout by user: {user_id}
+[2024-07-07 11:54:46] Updated book: VSK by Ganesh, ISBN: 1236
+[2024-07-07 11:56:39] Updated book: LMN by vij, ISBN: 5678
+[2024-07-07 11:57:17] Updated book: hgjhk by jhkj, ISBN: 5465
+[2024-07-07 12:46:32] Updated book: life is great by vani, ISBN: 9876
+[2024-07-07 12:58:15] Book added successfully.: my life by sarvani, ISBN: 1235, Quantity: 2
+[2024-07-07 13:02:09] Duplicate entry: The book already exists.: my life by sarvani, ISBN: 1235, Quantity: 2
+[2024-07-07 13:34:05] Book added successfully.: Let's C by Yashwanth Kannetkar, ISBN: 1234, Quantity: 5
+[2024-07-07 13:35:11] Duplicate entry: The book already exists.: Let's C by Yashwanth Kannetkar, ISBN: 1234, Quantity: 3
+[2024-07-07 13:37:10] Deleted book: The C Programming Language
+[2024-07-07 13:50:05] Book not found.
+[2024-07-07 13:51:11] Book not found.
+[2024-07-07 14:16:54] Book not found.
+[2024-07-07 14:17:40] Book not found.
+[2024-07-07 14:21:58] Book deleted successfully.
+[2024-07-07 14:23:11] Book updated successfully.
+[2024-07-07 14:24:52] Added user name: gsk1234, user_id gsk
+[2024-07-07 14:25:59] Searched for user by name: gsk1234
+[2024-07-07 14:26:25] Searched for user by id: gsk
+[2024-07-07 14:26:57] Deleted user: 123
+[2024-07-09 10:00:10] Book deleted successfully.
+[2024-07-09 10:00:59] Book deleted successfully.
+[2024-07-09 10:01:35] Book added successfully.: C Programming by Dennis Ritchie, ISBN: 1441, Quantity: 2
+[2024-07-09 10:01:55] Searched for book by title: C Programming
+[2024-07-09 10:02:07] Searched for book by isbn: 1441
+[2024-07-09 10:03:31] Book updated successfully.
+[2024-07-09 10:13:10] Checked-out books status viewed.
+[2024-07-09 10:14:08] Checked-out books status viewed.
+[2024-07-09 10:27:10] Book added successfully.: What is life by Swami Vivekananda, ISBN: 1451, Quantity: 3
+[2024-07-09 10:27:22] Searched for book by isbn: 1451
+[2024-07-09 10:28:18] Book updated successfully.
+[2024-07-09 10:28:59] Book deleted successfully.
+[2024-07-09 10:29:26] Added user name: kal12, user_id kala
+[2024-07-09 10:29:54] Searched for user by name: kal12
+[2024-07-09 10:30:22] Deleted user: kala
+[2024-07-09 10:32:49] Book not found or unavailable.: Book ISBN: 1451 checked out by user: gsk
+[2024-07-09 10:38:25] Book added successfully.: ganimn by g, ISBN: 123, Quantity: 4
+[2024-07-09 10:38:47] Tried Book ISBN: {isbn} checkout by user: {user_id}
+[2024-07-09 10:40:12] Book updated successfully.
+[2024-07-09 10:44:17] Book added successfully.: software by microsoft, ISBN: 2121, Quantity: 5
+[2024-07-09 10:45:06] Book deleted successfully.
+[2024-07-09 10:45:27] Book added successfully.: C program by Dennis, ISBN: 1717, Quantity: 4
+[2024-07-09 10:46:06] Book deleted successfully.
+[2024-07-09 10:46:26] Book deleted successfully.
+[2024-07-09 10:46:52] Book deleted successfully.
+[2024-07-09 10:53:04] Book added successfully.: gsa by sk, ISBN: 1236, Quantity: 6
+[2024-07-09 11:01:11] Book added successfully.: life is great by GK, ISBN: 7171, Quantity: 4
+[2024-07-09 11:01:31] Book added successfully.: Wow C by Vani, ISBN: 3333, Quantity: 5
+[2024-07-09 11:01:50] Book not found or unavailable.: Book ISBN: 3333 checked out by user: gsk
+[2024-07-09 13:41:10] Book added successfully.: Basics by GK, ISBN: 777, Quantity: 4
+[2024-07-09 13:41:31] Searched for book by ISBN: 777
+[2024-07-09 13:41:56] Checkout: Book checked out successfully. Due date: 2024-08-08
+[2024-07-09 13:43:02] Book updated successfully.
+[2024-07-09 13:56:33] Book added successfully.: Ruby on Rails by HK, ISBN: 888, Quantity: 6
+[2024-07-09 13:56:50] Searched for book by title: Ruby on Rails
+[2024-07-09 13:57:24] Book not found.
+[2024-07-09 13:58:53] Book updated successfully.
+[2024-07-09 13:59:14] Searched for book by ISBN: 888
+[2024-07-09 13:59:31] Added user: Name: rams12, ID: rams
+[2024-07-09 14:00:11] Searched for user by name: rams12
+[2024-07-09 14:00:32] Searched for user by ID: gsk
+[2024-07-09 14:00:49] Deleted user: ID: gsk
+[2024-07-09 14:01:26] Checkout: Book checked out successfully. Due date: 2024-08-08
+[2024-07-09 14:03:13] Checkin: No checkout record found.
+[2024-07-09 14:03:32] Checkin: Book checked in. Overdue fee: Rs.0
+[2024-07-09 14:27:07] Checkout: Checkout failed: User ID does not exist.
+[2024-07-09 14:32:26] Checkout: Checkout failed: User ID does not exist.
+[2024-07-09 14:32:36] Checkout: Book not found or unavailable.
+[2024-07-09 14:33:30] Checkout: Book not found or unavailable.
+[2024-07-09 14:36:47] Checkout: Checkout failed: User ID does not exist.
+[2024-07-09 14:36:58] Checkout: Book not found.
+[2024-07-09 14:37:27] Checkout: Book not found.
+[2024-07-09 14:43:05] Checkout: Checkout failed: User ID does not exist.
+[2024-07-09 14:43:19] Checkout: Book not found.
+[2024-07-09 14:53:26] Checkout: Book not found.
+[2024-07-09 15:03:08] Checkout: Checkout failed: User ID does not exist.
+[2024-07-09 15:03:19] Checkout: Book not found or unavailable.
+[2024-07-09 15:04:37] Checkout: Book not found or unavailable.
+[2024-07-09 15:08:47] Checkout: Book not found or unavailable.
+[2024-07-09 15:09:15] Checkout: Book not found or unavailable.
+[2024-07-09 15:09:51] Checkout: Book not found or unavailable.
+[2024-07-09 15:11:58] Checkout: Book not found or unavailable.
+[2024-07-09 15:14:46] Checkout: Book not found or unavailable.
+[2024-07-09 15:21:27] Checkout: Book not found or unavailable.
+[2024-07-09 15:22:32] Checkout: Book not found or unavailable.
+[2024-07-09 15:24:13] Checkout: Book not found or unavailable.
+[2024-07-09 15:24:49] Checkout: Book not found or unavailable.
+[2024-07-09 15:30:54] Searched for book by ISBN: 777
+[2024-07-09 15:38:02] Searched for book by ISBN: 888
+[2024-07-09 15:38:33] Searched for book by title: Wow C
+[2024-07-09 15:38:46] Searched for book by ISBN: 3333
+[2024-07-09 15:39:13] Checkout: Book not found or unavailable.
+[2024-07-09 15:41:06] Book added successfully.: freedom by hrx, ISBN: 1232, Quantity: 2
+[2024-07-09 15:41:15] Searched for book by ISBN: 1232
+[2024-07-09 15:42:45] Book not found.
+[2024-07-09 15:43:40] Searched for book by ISBN: 1232
+[2024-07-09 15:49:18] Searched for book by ISBN: 777
+[2024-07-09 15:49:33] Checkout: Book checked out successfully. Due date: 2024-08-08
+[2024-07-09 15:51:10] Searched for book by ISBN: 1232
+[2024-07-09 15:51:25] Checkin: No checkout record found.
+[2024-07-09 15:51:46] Checkin: Book checked in. Overdue fee: Rs.0
+[2024-07-09 15:55:23] Checkout: User not found or is not active.
+[2024-07-09 15:55:38] Checkout: Book checked out successfully. Due date: 2024-08-08
+[2024-07-09 15:56:07] Checkin: No checkout record found.
+[2024-07-09 15:56:19] Checkin: Book checked in. Overdue fee: Rs.0
