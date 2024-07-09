@@ -13,8 +13,8 @@ Library management system majorly uses the below files:\
 The above files majorly concentrate on performing the major CRUD operations required to manage the library system. It followed below approach where, every layer is discussed thoroughly \
 
 Layered Architecture: The overall structure of our system exhibits a Layered Architecture, where the application is organized into layers with specific responsibilities. This architecture promotes separation of concerns, making the system more organized and manageable. The key layers in your application include:\
-**1. Presentation Layer:** This is represented by your command-line interface in main.py, where interactions with the system occur (like a Command pattern used to encapsulate a request as an object, letting us parameterize clients with different requests, queue or log requests, and support undoable operations.) \\
-**2. Major Logic Layer:** This includes classes like Books, Users, and Check which handle the core functionality and rules of the application ((like a Singleton Pattern to instantiate only once throughout your application's lifecycle.) \\
+**1. Presentation Layer:** This is represented by your command-line interface in main.py, where interactions with the system occur (like a Command pattern used to encapsulate a request as an object, letting us parameterize clients with different requests, queue or log requests, and support undoable operations.) \
+**2. Major Logic Layer:** This includes classes like Books, Users, and Check which handle the core functionality and rules of the application ((like a Singleton Pattern to instantiate only once throughout your application's lifecycle.) \
 **3. Data Access Layer:** The Storage class manages reading and writing to CSV files, abstracting the details of data persistence from the rest of the application (like a Repository Pattern, which is used to encapsulate the logic required to access data sources.)\
 
 **check.py:**\
