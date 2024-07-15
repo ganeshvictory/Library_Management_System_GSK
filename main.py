@@ -180,6 +180,15 @@ def checkout_book():
         storage_management.save()
     logger.log(f"Checkin: {message}")
 
+def checkin_book():
+    user_id = input("Enter user ID: ")
+    isbn = input("Enter ISBN of the book to check in: ")
+    message = record_management.checkin_book(user_id, isbn)
+    print(message)
+    if "successfully" in message:
+        storage_management.save()
+    logger.log(f"Checkin: {message}")
+
 #Lists all the checkins and checkouts
 def list_records():
     print("\nListing all records:")
